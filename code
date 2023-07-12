@@ -1,0 +1,1 @@
+document.querySelectorAll("[data-testid*='unfollow']").forEach(function(e) { e.click(); $("div[data-testid='confirmationSheetConfirm']").click(); });
